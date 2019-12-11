@@ -64,6 +64,11 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+h1{
+	display: inline-block; 
+	text-align: justify; 
+}
+
 nav{
 
 	margin: 0px; 
@@ -88,11 +93,25 @@ nav{
 	/*this class is on the header, which is a block element.  There is no height or width defined in a block element.  */
 }
 
+.globe{
+	display: inline-block;
+	text-align: right;
+	position: relative;
+}
+
+#text-indent{
+	text-indent: 40px;
+}
+
 .button{
-	text-align: left;
+	
 	font-size: 24px; 
 	border: solid black 2px;
-	vertical-align: 15cm;   
+	vertical-align: text-bottom; 
+	padding: 10px 35px 10px 35px;
+	font-weight: light;
+	text-decoration: none;
+	text-emphasis: none;
 }
 
 
