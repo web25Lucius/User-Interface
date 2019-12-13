@@ -73,8 +73,13 @@ nav{
 
 	margin: 0px; 
 	width: 1000px; 
-	text-align: center;    
+	/* text-align: center;     */
 	word-spacing: 1cm;  
+	padding: 70px 30px 35px 60px; 
+}
+
+#l1{
+	display: inline-block; 
 }
 
 .logo {
